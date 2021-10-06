@@ -40,7 +40,7 @@ if (empty($_SESSION['doctor']) OR empty($_SESSION['type'])) {
 				 <center><label for="symptoms"><b>Enter Sysmptoms</b></label></center><br>
 				<textarea required="required" name="symptoms" id="symptoms" class="form" style="height:200px; padding-left:20px;padding-top:20px;font-family:Arial;" placeholder=""></textarea><br><br>
 
-				<center><label for="test"><b>Enter Test Suggestions</b></label></center><br>
+				<center><label for="test"><b>Test Suggestions</b></label></center><br>
 				<textarea required="required" name="test" id="test" class="form" style="height:200px; padding-left:20px;padding-top:20px;font-family:Arial;" placeholder=""></textarea><br><br>
 				
 				<input type="submit" value="Send To Lab" class="btnlink" name="btn"><br><br>
