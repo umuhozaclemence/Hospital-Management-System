@@ -17,7 +17,7 @@ if (empty($_SESSION['admin']) OR empty($_SESSION['type'])) {
 		include "includes/header.php";
 		include "includes/left.php";
 	 ?>
-		<div class="right"><br>
+		<div class="left"><br>
 			<a href="rooms.php" style="margin-left:10px;"><button class="btnlink">View Rooms</button></a><br>
 			<?php
 
